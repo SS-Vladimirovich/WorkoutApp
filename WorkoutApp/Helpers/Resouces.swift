@@ -14,6 +14,7 @@ enum Resouces {
         
         static let separator = UIColor(hexString: "#E8ECEF")
         static let titleGray = UIColor(hexString: "#545C77")
+        static let backgraund = UIColor(hexString: "#F8F9F9")
     }
     
     enum Strings {
