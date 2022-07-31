@@ -10,6 +10,7 @@
 		E05E5C4F2894157A00FD3863 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05E5C4E2894157A00FD3863 /* TabBarController.swift */; };
 		E05E5C522894170300FD3863 /* UIColor + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05E5C512894170300FD3863 /* UIColor + ext.swift */; };
 		E05E5C55289417C200FD3863 /* Resouces.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05E5C54289417C200FD3863 /* Resouces.swift */; };
+		E05E5C5728968D6D00FD3863 /* NavBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05E5C5628968D6D00FD3863 /* NavBarController.swift */; };
 		E0FC35F428940E8500AE3498 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FC35F328940E8500AE3498 /* AppDelegate.swift */; };
 		E0FC35F628940E8500AE3498 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FC35F528940E8500AE3498 /* SceneDelegate.swift */; };
 		E0FC35F828940E8500AE3498 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FC35F728940E8500AE3498 /* ViewController.swift */; };
@@ -41,6 +42,7 @@
 		E05E5C4E2894157A00FD3863 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		E05E5C512894170300FD3863 /* UIColor + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + ext.swift"; sourceTree = "<group>"; };
 		E05E5C54289417C200FD3863 /* Resouces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resouces.swift; sourceTree = "<group>"; };
+		E05E5C5628968D6D00FD3863 /* NavBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarController.swift; sourceTree = "<group>"; };
 		E0FC35F028940E8500AE3498 /* WorkoutApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkoutApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0FC35F328940E8500AE3498 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0FC35F528940E8500AE3498 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				E05E5C50289416EE00FD3863 /* Helpers */,
 				E0FC362328940FB800AE3498 /* Application */,
 				E0FC35F728940E8500AE3498 /* ViewController.swift */,
+				E05E5C5628968D6D00FD3863 /* NavBarController.swift */,
 				E05E5C4E2894157A00FD3863 /* TabBarController.swift */,
 				E0FC362428940FEA00AE3498 /* SapportingFiles */,
 			);
@@ -298,6 +301,7 @@
 				E0FC35F828940E8500AE3498 /* ViewController.swift in Sources */,
 				E05E5C4F2894157A00FD3863 /* TabBarController.swift in Sources */,
 				E05E5C522894170300FD3863 /* UIColor + ext.swift in Sources */,
+				E05E5C5728968D6D00FD3863 /* NavBarController.swift in Sources */,
 				E0FC35F428940E8500AE3498 /* AppDelegate.swift in Sources */,
 				E05E5C55289417C200FD3863 /* Resouces.swift in Sources */,
 				E0FC35F628940E8500AE3498 /* SceneDelegate.swift in Sources */,

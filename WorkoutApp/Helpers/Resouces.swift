@@ -13,6 +13,7 @@ enum Resouces {
         static let inactive = UIColor(hexString: "#929DA5")
         
         static let separator = UIColor(hexString: "#E8ECEF")
+        static let titleGray = UIColor(hexString: "#545C77")
     }
     
     enum Strings {
@@ -30,6 +31,12 @@ enum Resouces {
             static let session = UIImage(named: "session_tab")
             static let progress = UIImage(named: "progress_tab")
             static let settings = UIImage(named: "settings_tab")
+        }
+    }
+    
+    enum Fonts {
+        static func helvelticaRegular(with size: CGFloat) -> UIFont {
+            UIFont(name: "Helveltica", size: size) ?? UIFont()
         }
     }
 }
