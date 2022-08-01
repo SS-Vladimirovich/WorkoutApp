@@ -37,7 +37,7 @@ enum Resouces {
     
     enum Fonts {
         static func helvelticaRegular(with size: CGFloat) -> UIFont {
-            UIFont(name: "Helveltica", size: size) ?? UIFont()
+            UIFont(name: "Helvetica", size: size) ?? UIFont()
         }
     }
 }

@@ -9,6 +9,8 @@ import UIKit
 
 class NavBarController: UINavigationController {
     
+    var rootViewController: UIViewController?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -17,10 +19,11 @@ class NavBarController: UINavigationController {
     
     func configure() {
         view.backgroundColor = .white
-        navigationBar.isTranslucent = false
+        navigationBar.isTranslucent = true
         navigationBar.standardAppearance.titleTextAttributes = [
             .foregroundColor: Resouces.Colors.titleGray,
             .font: Resouces.Fonts.helvelticaRegular(with: 17)
         ]
+        navigationBar.addBottomBorder(with: Resouces.Colors.separator, height: 1)
     }
 }
