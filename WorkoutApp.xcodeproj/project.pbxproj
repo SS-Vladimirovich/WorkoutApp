@@ -11,6 +11,7 @@
 		E01D40F12897EC7900D99E4A /* SessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01D40F02897EC7900D99E4A /* SessionController.swift */; };
 		E01D40F32897ECB800D99E4A /* ProgressController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01D40F22897ECB800D99E4A /* ProgressController.swift */; };
 		E01D40F52897ECE500D99E4A /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01D40F42897ECE500D99E4A /* SettingsController.swift */; };
+		E01D40F82899455B00D99E4A /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01D40F72899455B00D99E4A /* SecondaryButton.swift */; };
 		E05E5C4F2894157A00FD3863 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05E5C4E2894157A00FD3863 /* TabBarController.swift */; };
 		E05E5C522894170300FD3863 /* UIColor + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05E5C512894170300FD3863 /* UIColor + ext.swift */; };
 		E05E5C55289417C200FD3863 /* Resouces.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05E5C54289417C200FD3863 /* Resouces.swift */; };
@@ -48,6 +49,7 @@
 		E01D40F02897EC7900D99E4A /* SessionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionController.swift; sourceTree = "<group>"; };
 		E01D40F22897ECB800D99E4A /* ProgressController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressController.swift; sourceTree = "<group>"; };
 		E01D40F42897ECE500D99E4A /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		E01D40F72899455B00D99E4A /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
 		E05E5C4E2894157A00FD3863 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		E05E5C512894170300FD3863 /* UIColor + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + ext.swift"; sourceTree = "<group>"; };
 		E05E5C54289417C200FD3863 /* Resouces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resouces.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 		E01D40EC2897EB7100D99E4A /* Overview */ = {
 			isa = PBXGroup;
 			children = (
+				E01D40F62899453A00D99E4A /* Views */,
 				E0FC35F728940E8500AE3498 /* OverviewController.swift */,
 			);
 			path = Overview;
@@ -132,6 +135,14 @@
 				E01D40F42897ECE500D99E4A /* SettingsController.swift */,
 			);
 			path = Settings;
+			sourceTree = "<group>";
+		};
+		E01D40F62899453A00D99E4A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E01D40F72899455B00D99E4A /* SecondaryButton.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		E05E5C50289416EE00FD3863 /* Helpers */ = {
@@ -367,6 +378,7 @@
 				E05E5C4F2894157A00FD3863 /* TabBarController.swift in Sources */,
 				E05E5C522894170300FD3863 /* UIColor + ext.swift in Sources */,
 				E01D40F12897EC7900D99E4A /* SessionController.swift in Sources */,
+				E01D40F82899455B00D99E4A /* SecondaryButton.swift in Sources */,
 				E01D40F32897ECB800D99E4A /* ProgressController.swift in Sources */,
 				E05E5C5728968D6D00FD3863 /* NavBarController.swift in Sources */,
 				E0FC35F428940E8500AE3498 /* AppDelegate.swift in Sources */,
