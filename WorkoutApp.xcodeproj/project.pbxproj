@@ -12,6 +12,8 @@
 		E01D40F32897ECB800D99E4A /* ProgressController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01D40F22897ECB800D99E4A /* ProgressController.swift */; };
 		E01D40F52897ECE500D99E4A /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01D40F42897ECE500D99E4A /* SettingsController.swift */; };
 		E01D40F82899455B00D99E4A /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01D40F72899455B00D99E4A /* SecondaryButton.swift */; };
+		E01D40FA289BED5C00D99E4A /* OverviewNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01D40F9289BED5C00D99E4A /* OverviewNavBar.swift */; };
+		E01D40FD289BED9100D99E4A /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01D40FC289BED9100D99E4A /* BaseView.swift */; };
 		E05E5C4F2894157A00FD3863 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05E5C4E2894157A00FD3863 /* TabBarController.swift */; };
 		E05E5C522894170300FD3863 /* UIColor + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05E5C512894170300FD3863 /* UIColor + ext.swift */; };
 		E05E5C55289417C200FD3863 /* Resouces.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05E5C54289417C200FD3863 /* Resouces.swift */; };
@@ -50,6 +52,8 @@
 		E01D40F22897ECB800D99E4A /* ProgressController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressController.swift; sourceTree = "<group>"; };
 		E01D40F42897ECE500D99E4A /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 		E01D40F72899455B00D99E4A /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
+		E01D40F9289BED5C00D99E4A /* OverviewNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewNavBar.swift; sourceTree = "<group>"; };
+		E01D40FC289BED9100D99E4A /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		E05E5C4E2894157A00FD3863 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		E05E5C512894170300FD3863 /* UIColor + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + ext.swift"; sourceTree = "<group>"; };
 		E05E5C54289417C200FD3863 /* Resouces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resouces.swift; sourceTree = "<group>"; };
@@ -100,6 +104,7 @@
 				E05E5C5628968D6D00FD3863 /* NavBarController.swift */,
 				E05E5C4E2894157A00FD3863 /* TabBarController.swift */,
 				E05E5C592896947C00FD3863 /* BaseController.swift */,
+				E01D40FC289BED9100D99E4A /* BaseView.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -141,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				E01D40F72899455B00D99E4A /* SecondaryButton.swift */,
+				E01D40F9289BED5C00D99E4A /* OverviewNavBar.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -374,6 +380,7 @@
 			files = (
 				E01D40F52897ECE500D99E4A /* SettingsController.swift in Sources */,
 				E0FC35F828940E8500AE3498 /* OverviewController.swift in Sources */,
+				E01D40FA289BED5C00D99E4A /* OverviewNavBar.swift in Sources */,
 				E01D40EA2897E91700D99E4A /* UIView + ext.swift in Sources */,
 				E05E5C4F2894157A00FD3863 /* TabBarController.swift in Sources */,
 				E05E5C522894170300FD3863 /* UIColor + ext.swift in Sources */,
@@ -383,6 +390,7 @@
 				E05E5C5728968D6D00FD3863 /* NavBarController.swift in Sources */,
 				E0FC35F428940E8500AE3498 /* AppDelegate.swift in Sources */,
 				E05E5C55289417C200FD3863 /* Resouces.swift in Sources */,
+				E01D40FD289BED9100D99E4A /* BaseView.swift in Sources */,
 				E05E5C5A2896947C00FD3863 /* BaseController.swift in Sources */,
 				E0FC35F628940E8500AE3498 /* SceneDelegate.swift in Sources */,
 			);
