@@ -22,6 +22,7 @@
 		E07F0B7628C233AF0072927A /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07F0B7528C233AF0072927A /* WeekView.swift */; };
 		E07F0B7828C237CB0072927A /* WeekDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07F0B7728C237CB0072927A /* WeekDayView.swift */; };
 		E07F0B7A28C5F2BF0072927A /* Date + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07F0B7928C5F2BF0072927A /* Date + ext.swift */; };
+		E07F0B7F28C77DDD0072927A /* BaseInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07F0B7E28C77DDD0072927A /* BaseInfoView.swift */; };
 		E0FC35F428940E8500AE3498 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FC35F328940E8500AE3498 /* AppDelegate.swift */; };
 		E0FC35F628940E8500AE3498 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FC35F528940E8500AE3498 /* SceneDelegate.swift */; };
 		E0FC35F828940E8500AE3498 /* OverviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FC35F728940E8500AE3498 /* OverviewController.swift */; };
@@ -65,6 +66,7 @@
 		E07F0B7528C233AF0072927A /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
 		E07F0B7728C237CB0072927A /* WeekDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekDayView.swift; sourceTree = "<group>"; };
 		E07F0B7928C5F2BF0072927A /* Date + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + ext.swift"; sourceTree = "<group>"; };
+		E07F0B7E28C77DDD0072927A /* BaseInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseInfoView.swift; sourceTree = "<group>"; };
 		E0FC35F028940E8500AE3498 /* WorkoutApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkoutApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0FC35F328940E8500AE3498 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0FC35F528940E8500AE3498 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,10 +109,8 @@
 		E01D40EB2897EB5200D99E4A /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				E05E5C5628968D6D00FD3863 /* NavBarController.swift */,
-				E05E5C4E2894157A00FD3863 /* TabBarController.swift */,
+				E07F0B7C28C77D970072927A /* Views */,
 				E05E5C592896947C00FD3863 /* BaseController.swift */,
-				E01D40FC289BED9100D99E4A /* BaseView.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -180,6 +180,7 @@
 		E05E5C582896946200FD3863 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				E07F0B7B28C76E060072927A /* Navigation */,
 				E01D40EF2897EB8F00D99E4A /* Settings */,
 				E01D40EE2897EB8500D99E4A /* Progress */,
 				E01D40ED2897EB7B00D99E4A /* Session */,
@@ -196,6 +197,32 @@
 				E07F0B7728C237CB0072927A /* WeekDayView.swift */,
 			);
 			path = WeekView;
+			sourceTree = "<group>";
+		};
+		E07F0B7B28C76E060072927A /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				E05E5C4E2894157A00FD3863 /* TabBarController.swift */,
+				E05E5C5628968D6D00FD3863 /* NavBarController.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		E07F0B7C28C77D970072927A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E07F0B7D28C77DBF0072927A /* New Group */,
+				E01D40FC289BED9100D99E4A /* BaseView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E07F0B7D28C77DBF0072927A /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				E07F0B7E28C77DDD0072927A /* BaseInfoView.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		E0FC35E728940E8500AE3498 = {
@@ -404,6 +431,7 @@
 				E05E5C4F2894157A00FD3863 /* TabBarController.swift in Sources */,
 				E05E5C522894170300FD3863 /* UIColor + ext.swift in Sources */,
 				E01D40F12897EC7900D99E4A /* SessionController.swift in Sources */,
+				E07F0B7F28C77DDD0072927A /* BaseInfoView.swift in Sources */,
 				E01D40F82899455B00D99E4A /* SecondaryButton.swift in Sources */,
 				E01D40F32897ECB800D99E4A /* ProgressController.swift in Sources */,
 				E05E5C5728968D6D00FD3863 /* NavBarController.swift in Sources */,
