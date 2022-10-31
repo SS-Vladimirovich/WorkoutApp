@@ -5,11 +5,9 @@
 //  Created by SERGEY SOKOLOV on 01.08.2022.
 //
 
-import Foundation
 import UIKit
 
 extension UIView {
-    
     func addBottomBorder(with color: UIColor, height: CGFloat) {
         let separator = UIView()
         separator.backgroundColor = color
@@ -31,7 +29,7 @@ extension UIView {
             .touchDragOutside,
             .touchUpInside,
             .touchUpOutside,
-            .touchDragInside,
+            .touchDragExit,
             .touchCancel
         ])
     }
@@ -44,9 +42,8 @@ extension UIView {
         UIView.animate(withDuration: 0.15) { self.alpha = 1 }
     }
     
-    func setupView(_ view: UIView) {
+    @objc func setupView(_ view: UIView) {
         addSubview(view)
         view.translatesAutoresizingMaskIntoConstraints = false
     }
 }
-
